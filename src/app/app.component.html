@@ -1,0 +1,45 @@
+<div>
+  <nav class="navbar navbar-expand navbar-dark bg-dark">
+    <a href="/tasks" class="navbar-brand">Task Management</a>
+
+    <ul class="navbar-nav ml-auto" *ngIf="!isLoggedIn">
+      <li class="nav-item">
+        <a
+          href="/register"
+          class="nav-link signUpButton mr-2"
+          routerLink="register"
+          >Sign Up</a
+        >
+      </li>
+      <li class="nav-item">
+        <a href="/login" class="nav-link loginButton mr-2" routerLink="login"
+          >Login</a
+        >
+      </li>
+    </ul>
+
+    <div class="navbar-nav mr-auto" *ngIf="isLoggedIn">
+      <li class="nav-item">
+        <a routerLink="tasks" class="nav-link">Tasks</a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="add" class="nav-link addTaskButton">Add Tasks</a>
+      </li>
+    </div>
+
+    <ul class="navbar-nav ml-auto" *ngIf="isLoggedIn">
+      <li class="nav-item">
+        <a href="/profile" class="nav-link" routerLink="profile">{{
+          username
+        }}</a>
+      </li>
+      <li class="nav-item">
+        <a href class="nav-link logoutButton" (click)="logout()">LogOut</a>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="container mt-3">
+    <router-outlet></router-outlet>
+  </div>
+</div>

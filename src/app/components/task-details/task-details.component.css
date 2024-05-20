@@ -1,0 +1,44 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+.edit-form {
+  max-width: 400px;
+  margin: auto;
+}
+.updateButton {
+  margin-left: 12px;
+  background-color: #328f8a;
+  background-image: linear-gradient(45deg, #328f8a, #08cb59);
+}
+
+.publishButton {
+  background-color: gray;
+  background-image: linear-gradient(45deg, #32678f, #1e6bde) !important;
+}
+
+.deleteButton {
+  background-color: #328f8a !important;
+  background-image: linear-gradient(45deg, #8f323e, #d41d2c) !important;
+}
+
+.unPublishButton {
+  background-color: gray;
+  background-image: none;
+}
+
+.editButton {
+  background-color: #328f8a !important;
+  background-image: linear-gradient(45deg, #6d8f32, #a7f60b) !important;
+}
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+  margin: 0 auto;
+  max-width: 400px !important;
+  padding: 40px 40px;
+}
