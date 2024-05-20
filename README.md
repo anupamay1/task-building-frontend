@@ -1,8 +1,11 @@
 **Steps to run project in your local:**
 1. clone repository
 2. install node modules using command - npm install
-3. run project using command - ng serve 
+3. run project using command - ng serve
+
+   
 **Project Images:**
+
 1.Login
 ![image](https://github.com/anupamay1/task-building-frontend/assets/36818409/f0c03a49-e2a5-44b3-8a04-7f0edd79133f)
 2. Sign up
