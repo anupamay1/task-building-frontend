@@ -3,6 +3,8 @@
 2. install node modules using command - npm install
 3. run project using command - ng serve
 
+Make sure to clone task-building-backend repository too.
+
    
 **Project Images:**
 
